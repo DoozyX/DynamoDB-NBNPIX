@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "Doozy",
   "license": "MIT",
+  "scripts": {
+    "create-tables": "node create-tables.js",
+    "load:ebay": "node load-ebay.js",
+    "read:ebay": "node read-ebay.js"
+  },
   "dependencies": {
     "aws-sdk": "^2.480.0",
     "uuid": "^3.3.2",

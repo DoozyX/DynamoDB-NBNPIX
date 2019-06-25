@@ -1,0 +1,12 @@
+{
+  "name": "DynamoDB-NBPIX",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Doozy",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.480.0",
+    "uuid": "^3.3.2",
+    "xml2js": "^0.4.19"
+  }
+}

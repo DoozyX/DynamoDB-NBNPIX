@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<airbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://acm.eionet.europa.eu/schemas/airbase/airbase20100623.xsd">
+	<country>
+		<country_name>KOSOVO</country_name>
+		<country_iso_code>XK</country_iso_code>
+		<country_eu_member>N</country_eu_member>
+		<network>
+			<network_code>XK001A</network_code>
+			<network_name>Air Quality Monitoring Network in Kosovo</network_name>
+			<network_short_name>AQMNK</network_short_name>
+			<network_start_date>2009-09-01</network_start_date>
+			<network_time_reference_basis>CET</network_time_reference_basis>
+			<network_type>national</network_type>
+			<network_manager>
+				<organization>
+					<organization_name>Kosovo environmental protection agency/Hydrometeorological Institut of Kosovo</organization_name>
+					<organization_address>Str, Bill ClintonNo 86 ,10000,Prishtine, Kosove</organization_address>
+					<organization_city>Prishtna</organization_city>
+					<organization_website_address>http://www.ammk-rks.net</organization_website_address>
+					<organization_phone_number>+381 38 603 179</organization_phone_number>
+					<organization_fax_number>+381 38 603 842</organization_fax_number>
+				</organization>
+				<person>
+					<person_last_name>Latifi</person_last_name>
+					<person_first_name>Letafete</person_first_name>
+					<person_title>spe.for.air qual.mon</person_title>
+					<person_email_address>letafete.latifi@yahoo.com</person_email_address>
+				</person>
+			</network_manager>
+			<network_data_supplier>
+				<organization>
+					<organization_name>Kosovo environmental protection agency</organization_name>
+					<organization_address>Luan Haradinaj, ex Rilindja, flour 1504, 10000 Prishtine Kosovo</organization_address>
+					<organization_city>Prishtina</organization_city>
+					<organization_website_address>http://www.ammk-rks.net</organization_website_address>
+					<organization_phone_number>+381 38 200 33 2</organization_phone_number>
+				</organization>
+				<person>
+					<person_last_name>Latifi</person_last_name>
+					<person_first_name>Letafete</person_first_name>
+					<person_title>spe.for.air qual.mon</person_title>
+					<person_email_address>letafete.latifi@yahoo.com</person_email_address>
+				</person>
+			</network_data_supplier>
+		</network>
+		<station Id = 'XK0003A:Drenas-Municipality'>
+			<station_european_code>XK0003A</station_european_code>
+			<network_info>
+				<network_code>XK001A</network_code>
+				<network_time_reference_basis>CET</network_time_reference_basis>
+			</network_info>
+			<station_info>
+				<EMEP_station>no</EMEP_station>
+				<station_local_code>KS0103</station_local_code>
+				<station_airbase_code>XK0003A</station_airbase_code>
+				<station_name>Drenas-Municipality</station_name>
+				<station_description>Station is located in a rezidencial zone of drenas, in a air way distance of 1.8 km from Fe-Ni&apos;s smelter</station_description>
+				<station_nuts_level0>XK</station_nuts_level0>
+				<station_nuts_level1>-</station_nuts_level1>
+				<station_nuts_level2>-</station_nuts_level2>
+				<station_nuts_level3>-</station_nuts_level3>
+				<station_start_date>2010-04-04</station_start_date>
+				<station_latitude_decimal_degrees>42.625570</station_latitude_decimal_degrees>
+				<station_longitude_decimal_degrees>20.896210</station_longitude_decimal_degrees>
+				<station_latitude_dms>+042°37&apos;32.04&quot;</station_latitude_dms>
+				<station_longitude_dms>+020°53&apos;46.36&quot;</station_longitude_dms>
+				<station_altitude>569</station_altitude>
+				<type_of_station>Background</type_of_station>
+				<station_type_of_area>urban</station_type_of_area>
+				<station_characteristic_of_zone>residential/commercial/industrial</station_characteristic_of_zone>
+				<main_emission_source>Commercial, institutional and residential combustion</main_emission_source>
+				<station_city>DRENAS(GLLOGOVC)</station_city>
+				<population>59160.000</population>
+				<monitoring_obj>Compliance monitoring for EC Directives incl. assessment of on-going abatement programmes and/or for the prediction of planned abatement actions</monitoring_obj>
+				<monitoring_obj>Compliance monitoring for national legislation</monitoring_obj>
+				<monitoring_obj>Exposure assesment (population and/or ecosystems and/or materials)</monitoring_obj>
+				<meteorological_parameter code = '51'>Wind velocity</meteorological_parameter>
+				<meteorological_parameter code = '52'>Wind direction</meteorological_parameter>
+				<meteorological_parameter code = '53'>Pressure</meteorological_parameter>
+				<meteorological_parameter code = '54'>Temperature</meteorological_parameter>
+				<meteorological_parameter code = '58'>Relative humidity</meteorological_parameter>
+			</station_info>
+			<measurement_configuration component = 'Sulphur dioxide (air) - UV fluorescence'>
+				<component_name>Sulphur dioxide (air)</component_name>
+				<component_caption>SO2</component_caption>
+				<component_code>1</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2010-04-04</measurement_group_start_date>
+				<measurement_info current_since = '2010-04-04' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2010-04-04</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>UV fluorescence</measurement_technique_principle>
+					<measurement_equipment>Thermo model 43i SO2 analyser</measurement_equipment>
+					<calibration_unit>hour</calibration_unit>
+					<height_sampling_point>3</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<sampling_time>0</sampling_time>
+					<calibration_frequency>25</calibration_frequency>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Particulate matter &lt; 10 µm (aerosol) - Beta ray attenuation'>
+				<component_name>Particulate matter &lt; 10 µm (aerosol)</component_name>
+				<component_caption>PM10</component_caption>
+				<component_code>5</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2010-04-04</measurement_group_start_date>
+				<measurement_info current_since = '2010-04-04' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2010-04-04</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Beta ray attenuation</measurement_technique_principle>
+					<measurement_equipment>Thermo model 5030 SHARP Particular Monitor with PM10 &amp; PM2.5 heads</measurement_equipment>
+					<height_sampling_point>3</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<sampling_time>0</sampling_time>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Ozone (air) - Ultraviolet (UV) photometry'>
+				<component_name>Ozone (air)</component_name>
+				<component_caption>O3</component_caption>
+				<component_code>7</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2010-04-04</measurement_group_start_date>
+				<measurement_info current_since = '2010-04-04' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2010-04-04</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Ultraviolet (UV) photometry</measurement_technique_principle>
+					<measurement_equipment>Thermo model 49i O3 analyser</measurement_equipment>
+					<calibration_unit>hour</calibration_unit>
+					<height_sampling_point>3</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<sampling_time>0</sampling_time>
+					<calibration_frequency>25</calibration_frequency>
+				</measurement_info>
+			</measurement_configuration>
+		</station>
+		<station Id = 'XK0002A:Prishtine-Build ex Rilindja'>
+			<station_european_code>XK0002A</station_european_code>
+			<network_info>
+				<network_code>XK001A</network_code>
+				<network_time_reference_basis>CET</network_time_reference_basis>
+			</network_info>
+			<station_info>
+				<EMEP_station>no</EMEP_station>
+				<station_local_code>KS0102</station_local_code>
+				<station_airbase_code>XK0002A</station_airbase_code>
+				<station_name>Prishtine-Build ex Rilindja</station_name>
+				<station_description>Automatic measurements</station_description>
+				<station_nuts_level0>XK</station_nuts_level0>
+				<station_nuts_level1>-</station_nuts_level1>
+				<station_nuts_level2>-</station_nuts_level2>
+				<station_nuts_level3>-</station_nuts_level3>
+				<station_start_date>2010-06-05</station_start_date>
+				<station_latitude_decimal_degrees>42.393471</station_latitude_decimal_degrees>
+				<station_longitude_decimal_degrees>21.092636</station_longitude_decimal_degrees>
+				<station_latitude_dms>+042°23&apos;36.49&quot;</station_latitude_dms>
+				<station_longitude_dms>+021°05&apos;33.49&quot;</station_longitude_dms>
+				<station_altitude>583</station_altitude>
+				<type_of_station>Traffic</type_of_station>
+				<station_type_of_area>urban</station_type_of_area>
+				<station_characteristic_of_zone>residential/commercial</station_characteristic_of_zone>
+				<main_emission_source>Road transport</main_emission_source>
+				<station_represented_length_of_street>2.500</station_represented_length_of_street>
+				<station_distance_from_kerb>7.000</station_distance_from_kerb>
+				<station_distance_to_junction>25.000</station_distance_to_junction>
+				<station_city>Prishtine</station_city>
+				<population>500000.000</population>
+				<street_name>Luan Haradina</street_name>
+				<monitoring_obj>Compliance monitoring for EC Directives incl. assessment of on-going abatement programmes and/or for the prediction of planned abatement actions</monitoring_obj>
+				<monitoring_obj>Compliance monitoring for national legislation</monitoring_obj>
+				<meteorological_parameter code = '51'>Wind velocity</meteorological_parameter>
+				<meteorological_parameter code = '52'>Wind direction</meteorological_parameter>
+				<meteorological_parameter code = '53'>Pressure</meteorological_parameter>
+				<meteorological_parameter code = '54'>Temperature</meteorological_parameter>
+				<meteorological_parameter code = '58'>Relative humidity</meteorological_parameter>
+			</station_info>
+			<measurement_configuration component = 'Particulate matter &lt; 10 µm (aerosol) - laser spectroscopy'>
+				<component_name>Particulate matter &lt; 10 µm (aerosol)</component_name>
+				<component_caption>PM10</component_caption>
+				<component_code>5</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2010-06-05</measurement_group_start_date>
+				<measurement_info current_since = '2010-06-05' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2010-06-05</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>laser spectroscopy</measurement_technique_principle>
+					<measurement_equipment>GRIMM model EDM 180 for PM10 and PM2.5</measurement_equipment>
+					<integration_time_frequency>30</integration_time_frequency>
+					<height_sampling_point>4</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<location_sampling_point>courtyard</location_sampling_point>
+					<sampling_time>60</sampling_time>
+					<sampling_time_unit>second</sampling_time_unit>
+					<integration_time_unit>minute</integration_time_unit>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Particulate matter &lt; 2.5 µm (aerosol) - laser spectroscopy'>
+				<component_name>Particulate matter &lt; 2.5 µm (aerosol)</component_name>
+				<component_caption>PM2.5</component_caption>
+				<component_code>6001</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2010-06-05</measurement_group_start_date>
+				<measurement_info current_since = '2010-06-05' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2010-06-05</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>laser spectroscopy</measurement_technique_principle>
+					<measurement_equipment>GRIMM model EDM 180 for PM10 and PM2.5</measurement_equipment>
+					<integration_time_frequency>30</integration_time_frequency>
+					<height_sampling_point>4</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<location_sampling_point>courtyard</location_sampling_point>
+					<sampling_time>60</sampling_time>
+					<sampling_time_unit>second</sampling_time_unit>
+					<integration_time_unit>minute</integration_time_unit>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+		</station>
+		<station Id = 'XK0001A:Prishtine-HMIK'>
+			<station_european_code>XK0001A</station_european_code>
+			<network_info>
+				<network_code>XK001A</network_code>
+				<network_time_reference_basis>CET</network_time_reference_basis>
+			</network_info>
+			<station_info>
+				<EMEP_station>no</EMEP_station>
+				<station_local_code>KS0101</station_local_code>
+				<station_airbase_code>XK0001A</station_airbase_code>
+				<station_name>Prishtine-HMIK</station_name>
+				<station_description>Automatic measurements</station_description>
+				<station_nuts_level0>XK</station_nuts_level0>
+				<station_nuts_level1>-</station_nuts_level1>
+				<station_nuts_level2>-</station_nuts_level2>
+				<station_nuts_level3>-</station_nuts_level3>
+				<station_start_date>2009-09-01</station_start_date>
+				<station_latitude_decimal_degrees>42.385586</station_latitude_decimal_degrees>
+				<station_longitude_decimal_degrees>21.081350</station_longitude_decimal_degrees>
+				<station_latitude_dms>+042°23&apos;08.10&quot;</station_latitude_dms>
+				<station_longitude_dms>+021°04&apos;52.86&quot;</station_longitude_dms>
+				<station_altitude>573</station_altitude>
+				<type_of_station>Background</type_of_station>
+				<station_type_of_area>suburban</station_type_of_area>
+				<station_characteristic_of_zone>residential/commercial/industrial</station_characteristic_of_zone>
+				<main_emission_source>Commercial, institutional and residential combustion</main_emission_source>
+				<station_city>Prishtine</station_city>
+				<population>500000.000</population>
+				<monitoring_obj>Compliance monitoring for EC Directives incl. assessment of on-going abatement programmes and/or for the prediction of planned abatement actions</monitoring_obj>
+				<monitoring_obj>Compliance monitoring for national legislation</monitoring_obj>
+				<meteorological_parameter code = '51'>Wind velocity</meteorological_parameter>
+				<meteorological_parameter code = '52'>Wind direction</meteorological_parameter>
+				<meteorological_parameter code = '53'>Pressure</meteorological_parameter>
+				<meteorological_parameter code = '54'>Temperature</meteorological_parameter>
+				<meteorological_parameter code = '58'>Relative humidity</meteorological_parameter>
+			</station_info>
+			<measurement_configuration component = 'Sulphur dioxide (air) - UV fluorescence'>
+				<component_name>Sulphur dioxide (air)</component_name>
+				<component_caption>SO2</component_caption>
+				<component_code>1</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2009-09-01</measurement_group_start_date>
+				<measurement_info current_since = '2009-09-01' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2009-09-01</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>UV fluorescence</measurement_technique_principle>
+					<measurement_equipment>Thermo model 43i SO2 analyser</measurement_equipment>
+					<integration_time_frequency>30</integration_time_frequency>
+					<height_sampling_point>4</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<location_sampling_point>courtyard</location_sampling_point>
+					<sampling_time>60</sampling_time>
+					<sampling_time_unit>second</sampling_time_unit>
+					<integration_time_unit>minute</integration_time_unit>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Particulate matter &lt; 10 µm (aerosol) - Beta ray attenuation'>
+				<component_name>Particulate matter &lt; 10 µm (aerosol)</component_name>
+				<component_caption>PM10</component_caption>
+				<component_code>5</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2009-09-01</measurement_group_start_date>
+				<measurement_info current_since = '2009-09-01' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2009-09-01</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Beta ray attenuation</measurement_technique_principle>
+					<measurement_equipment>Thermo model 5030 SHARP Particular Monitor with PM10 &amp; PM2.5 heads</measurement_equipment>
+					<integration_time_frequency>30</integration_time_frequency>
+					<height_sampling_point>4</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<location_sampling_point>courtyard</location_sampling_point>
+					<sampling_time>60</sampling_time>
+					<sampling_time_unit>second</sampling_time_unit>
+					<integration_time_unit>minute</integration_time_unit>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Ozone (air) - Ultraviolet (UV) photometry'>
+				<component_name>Ozone (air)</component_name>
+				<component_caption>O3</component_caption>
+				<component_code>7</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2009-09-01</measurement_group_start_date>
+				<measurement_info current_since = '2009-09-01' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2009-09-01</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Ultraviolet (UV) photometry</measurement_technique_principle>
+					<measurement_equipment>Thermo model 49i O3 analyser</measurement_equipment>
+					<integration_time_frequency>30</integration_time_frequency>
+					<height_sampling_point>4</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<location_sampling_point>courtyard</location_sampling_point>
+					<sampling_time>60</sampling_time>
+					<sampling_time_unit>second</sampling_time_unit>
+					<integration_time_unit>minute</integration_time_unit>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Nitrogen dioxide (air) - Chemiluminescence'>
+				<component_name>Nitrogen dioxide (air)</component_name>
+				<component_caption>NO2</component_caption>
+				<component_code>8</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2009-09-01</measurement_group_start_date>
+				<measurement_info current_since = '2009-09-01' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2009-09-01</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Chemiluminescence</measurement_technique_principle>
+					<measurement_equipment>Thermo model 42i NO/Nox analyser</measurement_equipment>
+					<integration_time_frequency>30</integration_time_frequency>
+					<height_sampling_point>4</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<location_sampling_point>courtyard</location_sampling_point>
+					<sampling_time>60</sampling_time>
+					<sampling_time_unit>second</sampling_time_unit>
+					<integration_time_unit>minute</integration_time_unit>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Nitrogen oxides (air) - Chemiluminescence'>
+				<component_name>Nitrogen oxides (air)</component_name>
+				<component_caption>NOX</component_caption>
+				<component_code>9</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg NO2/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2009-09-01</measurement_group_start_date>
+				<measurement_info current_since = '2009-09-01' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2009-09-01</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Chemiluminescence</measurement_technique_principle>
+					<measurement_equipment>Thermo model 42i NO/Nox analyser</measurement_equipment>
+					<integration_time_frequency>30</integration_time_frequency>
+					<height_sampling_point>4</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<location_sampling_point>courtyard</location_sampling_point>
+					<sampling_time>60</sampling_time>
+					<sampling_time_unit>second</sampling_time_unit>
+					<integration_time_unit>minute</integration_time_unit>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Carbon monoxide (air) - Non-dispersive infrared spectroscopy (NDIR)'>
+				<component_name>Carbon monoxide (air)</component_name>
+				<component_caption>CO</component_caption>
+				<component_code>10</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>mg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2009-09-01</measurement_group_start_date>
+				<measurement_info current_since = '2009-09-01' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2009-09-01</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Non-dispersive infrared spectroscopy (NDIR)</measurement_technique_principle>
+					<measurement_equipment>Thermo model 48i CO analyser</measurement_equipment>
+					<integration_time_frequency>30</integration_time_frequency>
+					<height_sampling_point>4</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<location_sampling_point>courtyard</location_sampling_point>
+					<sampling_time>60</sampling_time>
+					<sampling_time_unit>second</sampling_time_unit>
+					<integration_time_unit>minute</integration_time_unit>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Particulate matter &lt; 2.5 µm (aerosol) - Beta ray attenuation'>
+				<component_name>Particulate matter &lt; 2.5 µm (aerosol)</component_name>
+				<component_caption>PM2.5</component_caption>
+				<component_code>6001</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2009-09-01</measurement_group_start_date>
+				<measurement_info current_since = '2009-09-01' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2009-09-01</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Beta ray attenuation</measurement_technique_principle>
+					<measurement_equipment>Thermo model 5030 SHARP Particular Monitor with PM10 &amp; PM2.5 heads</measurement_equipment>
+					<integration_time_frequency>30</integration_time_frequency>
+					<height_sampling_point>4</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<location_sampling_point>courtyard</location_sampling_point>
+					<sampling_time>60</sampling_time>
+					<sampling_time_unit>second</sampling_time_unit>
+					<integration_time_unit>minute</integration_time_unit>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+		</station>
+	</country>
+</airbase>

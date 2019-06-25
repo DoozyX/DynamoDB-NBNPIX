@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<airbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="http://acm.eionet.europa.eu/schemas/airbase/airbase20100623.xsd">
+	<country>
+		<country_name>ANDORRA</country_name>
+		<country_iso_code>AD</country_iso_code>
+		<country_eu_member>N</country_eu_member>
+		<network>
+			<network_code>AD001A</network_code>
+			<network_name>Govern d&apos;Andorra (Unitat Medi Atmosfèric, department Medi Ambient)</network_name>
+			<network_short_name>GOVANDORRA</network_short_name>
+			<network_start_date>1990-01-01</network_start_date>
+			<network_time_reference_basis>CET</network_time_reference_basis>
+			<network_type>national</network_type>
+			<network_manager>
+				<organization>
+					<organization_name>Unitat de Medi Atmosfèric</organization_name>
+					<organization_address>c Prat de la Creu, 62-64  Andorra la Vella  Principat d&apos;&apos;Andorra</organization_address>
+					<organization_city>ndorra la Vella              h</organization_city>
+					<organization_website_address>ttp://www.mediambient.ad</organization_website_address>
+					<organization_phone_number>(+376) 875.707</organization_phone_number>
+					<organization_fax_number>(+376) 869.833</organization_fax_number>
+				</organization>
+				<person>
+					<person_last_name>ROSSELL SOLER</person_last_name>
+					<person_first_name>Marc</person_first_name>
+					<person_email_address>unitat_medi_atmosferic@govern.ad</person_email_address>
+				</person>
+			</network_manager>
+			<network_data_supplier>
+				<organization>
+					<organization_name>Unitat de Medi Atmosfèric</organization_name>
+					<organization_address>c Prat de la Creu, 62-64  Andorra la Vella  Principat d&apos;&apos;Andorra</organization_address>
+					<organization_city>ndorra la Vella              h</organization_city>
+					<organization_website_address>ttp://www.mediambient.ad</organization_website_address>
+					<organization_phone_number>(+376) 875.707</organization_phone_number>
+					<organization_fax_number>(+376) 869.833</organization_fax_number>
+				</organization>
+				<person>
+					<person_last_name>Vila Mur</person_last_name>
+					<person_first_name>Antoni</person_first_name>
+					<person_email_address>unitat_medi_atmosferic@govern.ad</person_email_address>
+				</person>
+			</network_data_supplier>
+		</network>
+		<station Id = 'AD0944A:Engolasters'>
+			<station_european_code>AD0944A</station_european_code>
+			<network_info>
+				<network_code>AD001A</network_code>
+				<network_time_reference_basis>CET</network_time_reference_basis>
+			</network_info>
+			<station_info>
+				<EMEP_station>no</EMEP_station>
+				<station_local_code>944</station_local_code>
+				<station_airbase_code>AD0944A</station_airbase_code>
+				<station_name>Engolasters</station_name>
+				<station_nuts_level0>AD</station_nuts_level0>
+				<station_nuts_level1>-</station_nuts_level1>
+				<station_nuts_level2>-</station_nuts_level2>
+				<station_nuts_level3>-</station_nuts_level3>
+				<sabe_country_code>AD</sabe_country_code>
+				<sabe_unit_code>AD</sabe_unit_code>
+				<sabe_unit_name>Andorra</sabe_unit_name>
+				<station_start_date>2006-02-10</station_start_date>
+				<station_latitude_decimal_degrees>42.516945</station_latitude_decimal_degrees>
+				<station_longitude_decimal_degrees>1.565014</station_longitude_decimal_degrees>
+				<station_latitude_dms>+042°31&apos;01.00&quot;</station_latitude_dms>
+				<station_longitude_dms>+001°33&apos;54.05&quot;</station_longitude_dms>
+				<station_altitude>1637</station_altitude>
+				<type_of_station>Background</type_of_station>
+				<station_type_of_area>rural</station_type_of_area>
+				<meteorological_parameter code = '52'>Wind direction</meteorological_parameter>
+				<meteorological_parameter code = '54'>Temperature</meteorological_parameter>
+			</station_info>
+			<measurement_configuration component = 'Ozone (air) - Ultraviolet (UV) photometry'>
+				<component_name>Ozone (air)</component_name>
+				<component_caption>O3</component_caption>
+				<component_code>7</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2006-02-10</measurement_group_start_date>
+				<measurement_info current_since = '2006-02-10' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2006-02-10</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Ultraviolet (UV) photometry</measurement_technique_principle>
+					<measurement_equipment>Teledyne API 400E UV photometric O3 analyser</measurement_equipment>
+					<height_sampling_point>0</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<sampling_time>0</sampling_time>
+				</measurement_info>
+			</measurement_configuration>
+		</station>
+		<station Id = 'AD0945A:Envalira'>
+			<station_european_code>AD0945A</station_european_code>
+			<network_info>
+				<network_code>AD001A</network_code>
+				<network_time_reference_basis>CET</network_time_reference_basis>
+			</network_info>
+			<station_info>
+				<EMEP_station>no</EMEP_station>
+				<station_local_code>945</station_local_code>
+				<station_airbase_code>AD0945A</station_airbase_code>
+				<station_name>Envalira</station_name>
+				<station_nuts_level0>AD</station_nuts_level0>
+				<station_nuts_level1>-</station_nuts_level1>
+				<station_nuts_level2>-</station_nuts_level2>
+				<station_nuts_level3>-</station_nuts_level3>
+				<sabe_country_code>AD</sabe_country_code>
+				<sabe_unit_code>AD</sabe_unit_code>
+				<sabe_unit_name>Andorra</sabe_unit_name>
+				<station_start_date>2011-05-01</station_start_date>
+				<station_latitude_decimal_degrees>42.534882</station_latitude_decimal_degrees>
+				<station_longitude_decimal_degrees>1.716986</station_longitude_decimal_degrees>
+				<station_latitude_dms>+042°32&apos;05.58&quot;</station_latitude_dms>
+				<station_longitude_dms>+001°43&apos;01.15&quot;</station_longitude_dms>
+				<station_altitude>2515</station_altitude>
+				<type_of_station>Background</type_of_station>
+				<station_type_of_area>rural</station_type_of_area>
+				<meteorological_parameter code = '99'>No meteo measured</meteorological_parameter>
+			</station_info>
+			<measurement_configuration component = 'Ozone (air) - Ultraviolet (UV) photometry'>
+				<component_name>Ozone (air)</component_name>
+				<component_caption>O3</component_caption>
+				<component_code>7</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2011-05-01</measurement_group_start_date>
+				<measurement_info current_since = '2011-05-01' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2011-05-01</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Ultraviolet (UV) photometry</measurement_technique_principle>
+					<measurement_equipment>Teledyne API 400E UV photometric O3 analyser</measurement_equipment>
+					<height_sampling_point>0</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<sampling_time>0</sampling_time>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+		</station>
+		<station Id = 'AD0942A:Escaldes-Engordany'>
+			<station_european_code>AD0942A</station_european_code>
+			<network_info>
+				<network_code>AD001A</network_code>
+				<network_time_reference_basis>CET</network_time_reference_basis>
+			</network_info>
+			<station_info>
+				<EMEP_station>no</EMEP_station>
+				<station_local_code>942</station_local_code>
+				<station_airbase_code>AD0942A</station_airbase_code>
+				<station_name>Escaldes-Engordany</station_name>
+				<station_nuts_level0>AD</station_nuts_level0>
+				<station_nuts_level1>-</station_nuts_level1>
+				<station_nuts_level2>-</station_nuts_level2>
+				<station_nuts_level3>-</station_nuts_level3>
+				<sabe_country_code>AD</sabe_country_code>
+				<sabe_unit_code>AD</sabe_unit_code>
+				<sabe_unit_name>Andorra</sabe_unit_name>
+				<station_start_date>2004-06-17</station_start_date>
+				<station_latitude_decimal_degrees>42.509724</station_latitude_decimal_degrees>
+				<station_longitude_decimal_degrees>1.539172</station_longitude_decimal_degrees>
+				<station_latitude_dms>+042°30&apos;35.00&quot;</station_latitude_dms>
+				<station_longitude_dms>+001°32&apos;21.02&quot;</station_longitude_dms>
+				<station_altitude>1080</station_altitude>
+				<type_of_station>Background</type_of_station>
+				<station_type_of_area>urban</station_type_of_area>
+				<station_city>ANDORRA LA VELLA</station_city>
+				<population>22.000</population>
+				<meteorological_parameter code = '52'>Wind direction</meteorological_parameter>
+				<meteorological_parameter code = '54'>Temperature</meteorological_parameter>
+			</station_info>
+			<measurement_configuration component = 'Sulphur dioxide (air) - Ultraviolet (UV) photometry'>
+				<component_name>Sulphur dioxide (air)</component_name>
+				<component_caption>SO2</component_caption>
+				<component_code>1</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2004-06-17</measurement_group_start_date>
+				<measurement_info current_since = '2004-06-17' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2004-06-17</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Ultraviolet (UV) photometry</measurement_technique_principle>
+					<measurement_equipment>Teledyne API 100E UV Fluorescent SO2 Analyser</measurement_equipment>
+					<height_sampling_point>0</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<sampling_time>0</sampling_time>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Particulate matter &lt; 10 µm (aerosol) - Tapered Element Oscillating Microbalance (TEOM)'>
+				<component_name>Particulate matter &lt; 10 µm (aerosol)</component_name>
+				<component_caption>PM10</component_caption>
+				<component_code>5</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2004-06-17</measurement_group_start_date>
+				<measurement_info current_since = '2004-06-17' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2004-06-17</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Tapered Element Oscillating Microbalance (TEOM)</measurement_technique_principle>
+					<measurement_equipment>TEOM 1400</measurement_equipment>
+					<height_sampling_point>0</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<sampling_time>0</sampling_time>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Ozone (air) - Ultraviolet (UV) photometry'>
+				<component_name>Ozone (air)</component_name>
+				<component_caption>O3</component_caption>
+				<component_code>7</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2004-06-17</measurement_group_start_date>
+				<measurement_info current_since = '2004-06-17' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2004-06-17</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Ultraviolet (UV) photometry</measurement_technique_principle>
+					<measurement_equipment>Teledyne API 400E UV photometric O3 analyser</measurement_equipment>
+					<height_sampling_point>0</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<sampling_time>0</sampling_time>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Nitrogen oxides (air) - Ultraviolet (UV) photometry'>
+				<component_name>Nitrogen oxides (air)</component_name>
+				<component_caption>NOX</component_caption>
+				<component_code>9</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg NO2/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2004-06-17</measurement_group_start_date>
+				<measurement_info current_since = '2004-06-17' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2004-06-17</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Ultraviolet (UV) photometry</measurement_technique_principle>
+					<measurement_equipment>Teledyne API 200E chemiluminescent NOx analyser</measurement_equipment>
+					<height_sampling_point>0</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<sampling_time>0</sampling_time>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Carbon monoxide (air) - Infrared gas filter correlation'>
+				<component_name>Carbon monoxide (air)</component_name>
+				<component_caption>CO</component_caption>
+				<component_code>10</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>mg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2004-06-17</measurement_group_start_date>
+				<measurement_info current_since = '2004-06-17' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2004-06-17</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Infrared gas filter correlation</measurement_technique_principle>
+					<measurement_equipment>Teledyne API 300E gas filter correlation CO analyser</measurement_equipment>
+					<height_sampling_point>0</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<sampling_time>0</sampling_time>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+			<measurement_configuration component = 'Particulate matter &lt; 2.5 µm (aerosol) - Tapered Element Oscillating Microbalance (TEOM)'>
+				<component_name>Particulate matter &lt; 2.5 µm (aerosol)</component_name>
+				<component_caption>PM2.5</component_caption>
+				<component_code>6001</component_code>
+				<component_FWD>yes</component_FWD>
+				<measurement_unit>µg/m3</measurement_unit>
+				<measurement_european_group_code>100</measurement_european_group_code>
+				<measurement_group_start_date>2008-12-01</measurement_group_start_date>
+				<measurement_info current_since = '2008-12-01' >
+					<measurement_european_code>100</measurement_european_code>
+					<measurement_start_date>2008-12-01</measurement_start_date>
+					<measurement_automatic>yes</measurement_automatic>
+					<measurement_technique_principle>Tapered Element Oscillating Microbalance (TEOM)</measurement_technique_principle>
+					<measurement_equipment>TEOM 1400</measurement_equipment>
+					<height_sampling_point>0</height_sampling_point>
+					<length_sampling_line>0</length_sampling_line>
+					<sampling_time>0</sampling_time>
+					<body_or_programme>EU EoI</body_or_programme>
+				</measurement_info>
+			</measurement_configuration>
+		</station>
+	</country>
+</airbase>

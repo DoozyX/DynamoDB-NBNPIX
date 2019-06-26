@@ -17,7 +17,6 @@ const formatObject = (obj = {}) => {
         Object.entries(obj)
             .forEach(
                 ([key, value]) => {
-                    console.log("key", key, "--value", value)
                     if (isObject(value)) {
                         obj[key] = formatObject(value)
                     } else if (Array.isArray(value)) {
@@ -25,7 +24,6 @@ const formatObject = (obj = {}) => {
                     } else {
                         obj[key] = format(value)
                     }
-                    console.log(obj[key]);
                 }
             );
     } else {

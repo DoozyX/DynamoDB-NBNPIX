@@ -1,13 +1,14 @@
-var AWS = require("aws-sdk");
-    
+const AWS = require("aws-sdk");
+
+// Configure aws
 AWS.config.update({
   region: "localhost",
   endpoint: "http://localhost:8000"
 });
 
-var dynamodb = new AWS.DynamoDB();
-
-var ebay = {
+const dynamodb = new AWS.DynamoDB();
+// Create tables
+const ebay = {
     TableName : "ebay",
     KeySchema: [       
         { AttributeName: "id", KeyType: "HASH"},  //Partition key
@@ -21,7 +22,7 @@ var ebay = {
     }
 };
 
-var yahoo = {
+const yahoo = {
     TableName : "yahoo",
     KeySchema: [       
         { AttributeName: "id", KeyType: "HASH"},  //Partition key
@@ -35,7 +36,7 @@ var yahoo = {
     }
 };
 
-var ubid = {
+const ubid = {
     TableName : "ubid",
     KeySchema: [       
         { AttributeName: "id", KeyType: "HASH"},  //Partition key
@@ -49,7 +50,7 @@ var ubid = {
     }
 };
 
-var t321gone = {
+const t321gone = {
     TableName : "t321gone",
     KeySchema: [       
         { AttributeName: "id", KeyType: "HASH"},  //Partition key

@@ -22,9 +22,11 @@ var parser = new xml2js.Parser();
         const data = await readFileAsync(__dirname + path); {
             parser.parseString(data, async (err, result) => {
                 console.log("Loading data for", tableName)
-                for (listing of result.root.listing) {
-                    formatObject(listing)
-
+                const listings = result.root.listing.map((listing) => {
+                    return formatObject(listing);
+                })
+                const start = process.hrtime.bigint();
+                for (listing of listings) {
                     var params = {
                         TableName: tableName,
                         Item: {
@@ -39,7 +41,8 @@ var parser = new xml2js.Parser();
                         console.error("Unable to add item. Error JSON:", JSON.stringify(err, null, 2));
                     }
                 }
-                console.log("Data loaded,", tableName);
+                const end = process.hrtime.bigint();
+                console.log(`Data loaded - ${tableName} in ${(end-start) / 1000000n} ms`);
             });
         };
     };

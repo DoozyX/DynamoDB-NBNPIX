@@ -1,10 +1,6 @@
 const AWS = require("aws-sdk");
+require("./awsconfig");
 
-// Configure aws
-AWS.config.update({
-  region: "localhost",
-  endpoint: "http://localhost:8000"
-});
 
 const dynamodb = new AWS.DynamoDB();
 // Create tables

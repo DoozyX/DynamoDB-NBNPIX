@@ -5,11 +5,7 @@ const xml2js = require('xml2js');
 const uuidv4 = require('uuid/v4');
 
 const { formatObject } = require("./util");
-
-AWS.config.update({
-    region: "localhost",
-    endpoint: "http://localhost:8000"
-});
+require("./awsconfig");
 
 const docClient = new AWS.DynamoDB.DocumentClient();
 const readFileAsync = promisify(fs.readFile)
